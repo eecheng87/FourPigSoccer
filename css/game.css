@@ -13,7 +13,7 @@
   grid-area: score;
 }
 
-.main .gameZone {
+.main #gameZone {
   background-image: url("../resources/court_full.png");
   background-size: 100% 100%;
   -ms-grid-row: 1;
@@ -21,13 +21,13 @@
   grid-area: game;
 }
 
-.main .gameZone #player {
+.main #gameZone #player {
   position: relative;
   width: 50px;
   height: 50px;
 }
 
-.main .gameZone #opponent {
+.main #gameZone #opponent {
   position: relative;
   width: 50px;
   height: 50px;
